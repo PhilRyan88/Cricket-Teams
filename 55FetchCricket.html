@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" class="srch" /><button class="btn">Search</button>
+    <div class="container"></div>
+    <script>
+      var search = document.querySelector(".srch");
+      var btn = document.querySelector(".btn");
+      var divTag = document.querySelector(".container");
+
+      async function fetchData() {
+        try {
+          const url = await fetch("./55FetchCricket.json");
+          const data = await url.json();
+          console.log(data);
+          data.teams.map((item) => {
+            var div = document.querySelector(".container");
+            var inpval = search.value.toLowerCase();
+            if (inpval === "india") {
+              item.players.map((item) => {
+                var p = document.createElement("p");
+                p.innerHTML = `${item.name} role : ${item.role}`;
+                var img = document.createElement("img");
+                img.src = item.url;
+                img.style.display = "block";
+                img.className = "images";
+                img.appendChild(p);
+                divTag.appendChild(img);
+              });
+            }
+          });
+        } catch (error) {
+          console.error(error);
+        }
+      }
+      btn.addEventListener("click", fetchData);
+    </script>
+  </body>
+</html>

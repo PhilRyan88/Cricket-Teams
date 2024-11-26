@@ -1,0 +1,184 @@
+{
+  "teams": [
+    {
+      "name": "India",
+      "players": [
+        {
+          "name": "Virat Kohli",
+          "role": "Batsman",
+          "url": "https://static.indiatvnews.com/ins-web/images/kohli-profile-1540274232.jpg"
+        },
+        {
+          "name": "Rohit Sharma",
+          "role": "Batsman",
+          "url": "https://newsisland.in/wp-content/uploads/2024/06/GPFHugFbkAACcOT.jpeg"
+        },
+        {
+          "name": "Jasprit Bumrah",
+          "role": "Bowler",
+          "url": "https://cricclubs.com/documentsRep/profilePics/ebd45f07-7dcd-4042-a790-47fa662f45ec.png"
+        },
+        {
+          "name": "Ravindra Jadeja",
+          "role": "All-rounder",
+          "url": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-03/27/full/1679881669-2453.jpg"
+        },
+        {
+          "name": "KL Rahul",
+          "role": "Wicketkeeper-Batsman",
+          "url": "https://e8h4f7q7.delivery.rocketcdn.me/wp-content/uploads/2019/08/KL-Rahul.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Australia",
+      "players": [
+        {
+          "name": "Steve Smith",
+          "role": "Batsman",
+          "url": ""
+        },
+        {
+          "name": "David Warner",
+          "role": "Batsman",
+          "url": ""
+        },
+        {
+          "name": "Pat Cummins",
+          "role": "Bowler",
+          "url": ""
+        },
+        {
+          "name": "Glenn Maxwell",
+          "role": "All-rounder",
+          "url": ""
+        },
+        {
+          "name": "Alex Carey",
+          "role": "Wicketkeeper-Batsman",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "New Zealand",
+      "players": [
+        {
+          "name": "Kane Williamson",
+          "role": "Batsman",
+          "url": ""
+        },
+        {
+          "name": "Devon Conway",
+          "role": "Batsman",
+          "url": ""
+        },
+        {
+          "name": "Trent Boult",
+          "role": "Bowler",
+          "url": ""
+        },
+        {
+          "name": "James Neesham",
+          "role": "All-rounder",
+          "url": ""
+        },
+        {
+          "name": "Tom Latham",
+          "role": "Wicketkeeper-Batsman",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "South Africa",
+      "players": [
+        {
+          "name": "Quinton de Kock",
+          "role": "Wicketkeeper-Batsman",
+          "url": ""
+        },
+        {
+          "name": "Aiden Markram",
+          "role": "Batsman",
+          "url": ""
+        },
+        {
+          "name": "Kagiso Rabada",
+          "role": "Bowler",
+          "url": ""
+        },
+        {
+          "name": "David Miller",
+          "role": "Batsman",
+          "url": ""
+        },
+        {
+          "name": "Marco Jansen",
+          "role": "All-rounder",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "England",
+      "players": [
+        {
+          "name": "Joe Root",
+          "role": "Batsman",
+          "url": ""
+        },
+        {
+          "name": "Jos Buttler",
+          "role": "Wicketkeeper-Batsman",
+          "url": ""
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowler",
+          "url": ""
+        },
+        {
+          "name": "Ben Stokes",
+          "role": "All-rounder",
+          "url": ""
+        },
+        {
+          "name": "Jonny Bairstow",
+          "role": "Batsman",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "West Indies",
+      "players": [
+        {
+          "name": "Chris Gayle",
+          "role": "Batsman",
+          "url": ""
+        },
+        {
+          "name": "Kieron Pollard",
+          "role": "All-rounder",
+          "url": ""
+        },
+        {
+          "name": "Jason Holder",
+          "role": "All-rounder",
+          "url": ""
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Wicketkeeper-Batsman",
+          "url": ""
+        },
+        {
+          "name": "Sheldon Cottrell",
+          "role": "Bowler",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
