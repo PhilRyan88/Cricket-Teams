@@ -4,40 +4,95 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <input type="text" class="srch" /><button class="btn">Search</button>
-    <div class="container"></div>
+    <div class="container">
+      <!-- <div class="cont">
+        <img
+          src="https://documents.bcci.tv/resizedimageskirti/107_compress.png"
+          alt=""
+          class="players"
+        />
+        <p class="name">Rohit Sharma</p>
+        <img src="https://i.ibb.co/9yjZVgX/45.png" alt="" class="jersey" />
+        <div class="rectangle">
+          <p class="details">Batter</p>
+          <p class="details">Age : 37</p>
+          <p class="dstyle">Style: RHB</p>
+        </div>
+      </div>
+      <div class="cont">
+        <img
+          src="https://documents.bcci.tv/resizedimageskirti/164_compress.png"
+          alt=""
+          class="players"
+        />
+      </div> -->
+    </div>
     <script>
       var search = document.querySelector(".srch");
       var btn = document.querySelector(".btn");
-      var divTag = document.querySelector(".container");
 
       async function fetchData() {
         try {
           const url = await fetch("./55FetchCricket.json");
           const data = await url.json();
           console.log(data);
-          data.teams.map((item) => {
-            var div = document.querySelector(".container");
-            var inpval = search.value.toLowerCase();
-            if (inpval === "india") {
-              item.players.map((item) => {
-                var p = document.createElement("p");
-                p.innerHTML = `${item.name} role : ${item.role}`;
+
+          var div = document.querySelector(".container");
+
+          var inpval = search.value.toLowerCase();
+
+          div.innerHTML = "";
+
+          data.teams
+            .filter((team) => team.name.toLowerCase() === inpval) // Filter to get only the selected team
+            .map((team) => {
+              team.players.map((player) => {
+                var box = document.createElement("div");
+                var rect = document.createElement("div");
+                var ability1 = document.createElement("p");
+                var ability2 = document.createElement("p");
+                var ability3 = document.createElement("p");
+                var jersey = document.createElement("img");
+
+                jersey.src = player.jersey;
+                jersey.className = "jersey";
+
+                rect.className = "rectangle";
+                box.className = "cont";
+                var name = document.createElement("p");
+                name.className = "name";
+                name.innerHTML = `${player.name} `;
                 var img = document.createElement("img");
-                img.src = item.url;
+                img.src = player.url;
+                img.id = "players";
                 img.style.display = "block";
                 img.className = "images";
-                img.appendChild(p);
-                divTag.appendChild(img);
+                ability3.className = "dstyle";
+                ability2.className = "details";
+                ability1.className = "details";
+                ability1.innerHTML = player.role;
+                ability2.innerHTML = `Age : ${player.age}`;
+                ability3.innerHTML = `Style : ${player.style}`;
+
+                rect.appendChild(ability1);
+                rect.appendChild(ability2);
+                rect.appendChild(ability3);
+                box.appendChild(jersey);
+                box.appendChild(name);
+                box.appendChild(img);
+                box.appendChild(rect);
+                div.appendChild(box);
               });
-            }
-          });
+            });
         } catch (error) {
           console.error(error);
         }
       }
+
       btn.addEventListener("click", fetchData);
     </script>
   </body>

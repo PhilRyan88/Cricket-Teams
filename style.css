@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 80px;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+.cont {
+  position: relative;
+  display: flex;
+  border: 1px solid;
+  height: 250px;
+  width: 400px;
+  border-radius: 18px;
+  flex-direction: row;
+  background-color: white;
+  &:hover {
+    background-color: rgba(13, 109, 253, 0.219);
+    color: orange;
+  }
+}
+
+.container .cont #players {
+  height: 150px;
+  position: absolute;
+  left: 250px;
+  top: 0px;
+  clip-path: circle();
+
+  background-color: rgba(13, 109, 253, 0.219);
+  transition: all 0.5s linear;
+  &:hover {
+    background-color: rgba(0, 0, 139, 0.612);
+  }
+}
+p[class="name"] {
+  border: 1px solid;
+  width: fit-content;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+
+  font-size: 20px;
+  font-weight: 550;
+  font-family: sans-serif;
+}
+.cont .rectangle {
+  border: 1px solid;
+  height: 55px;
+  width: 300px;
+  position: absolute;
+  top: 180px;
+  left: 30px;
+  border-radius: 7px;
+  display: flex;
+  background-color: #d7eff4;
+  border-style: none;
+  color: black;
+}
+.cont .rectangle .details {
+  border: 1px solid rgba(73, 73, 73, 0.273);
+  border-left: none;
+  margin: auto;
+  height: 53px;
+  border-bottom: none;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+}
+.cont .rectangle .dstyle {
+  margin: auto;
+  height: 53px;
+  border-bottom: none;
+  border-top: none;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: center;
+}
+
+.container .cont .players {
+  height: 150px;
+  position: absolute;
+  left: 250px;
+  top: 0px;
+  clip-path: circle();
+
+  background-color: rgba(13, 109, 253, 0.219);
+  transition: all 0.5s linear;
+  &:hover {
+    background-color: rgba(0, 0, 139, 0.612);
+  }
+}
+.container .cont .jersey {
+  height: 120px;
+  position: absolute;
+  top: 83px;
+
+  left: 25px;
+  &:hover {
+    filter: drop-shadow(1px 1px 8px orange);
+  }
+}

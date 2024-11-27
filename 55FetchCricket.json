@@ -4,29 +4,125 @@
       "name": "India",
       "players": [
         {
-          "name": "Virat Kohli",
-          "role": "Batsman",
-          "url": "https://static.indiatvnews.com/ins-web/images/kohli-profile-1540274232.jpg"
+          "name": "Rohit Sharma",
+          "role": "Batter",
+          "url": "https://documents.bcci.tv/resizedimageskirti/107_compress.png",
+          "age": "37",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/9yjZVgX/45.png"
         },
         {
-          "name": "Rohit Sharma",
-          "role": "Batsman",
-          "url": "https://newsisland.in/wp-content/uploads/2024/06/GPFHugFbkAACcOT.jpeg"
+          "name": "Virat Kohli",
+          "role": "Batter",
+          "url": "https://documents.bcci.tv/resizedimageskirti/164_compress.png",
+          "age": "36",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/Qfk5HhG/18.png"
         },
+
         {
           "name": "Jasprit Bumrah",
           "role": "Bowler",
-          "url": "https://cricclubs.com/documentsRep/profilePics/ebd45f07-7dcd-4042-a790-47fa662f45ec.png"
+          "url": "https://documents.bcci.tv/resizedimageskirti/1124_compress.png",
+          "age": "30",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/y8cTGvs/93.png"
         },
         {
           "name": "Ravindra Jadeja",
           "role": "All-rounder",
-          "url": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-03/27/full/1679881669-2453.jpg"
+          "url": "https://documents.bcci.tv/resizedimageskirti/9_compress.png",
+          "age": "35",
+          "style": "LHB",
+          "jersey": "https://i.ibb.co/NpjFsxs/8.png"
         },
         {
           "name": "KL Rahul",
-          "role": "Wicketkeeper-Batsman",
-          "url": "https://e8h4f7q7.delivery.rocketcdn.me/wp-content/uploads/2019/08/KL-Rahul.jpg"
+          "role": "Wicketkeeper",
+          "url": "https://documents.bcci.tv/resizedimageskirti/1125_compress.png",
+          "age": "32",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/DQhvmwL/1.png"
+        },
+        {
+          "name": "Mohammad Shami",
+          "role": "Bowler",
+          "url": "https://documents.bcci.tv/resizedimageskirti/94_compress.png",
+          "age": "34",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/k1VRcRf/11.png"
+        },
+        {
+          "name": "Ravichandran Ashwin",
+          "role": "Bowler",
+          "url": "https://documents.bcci.tv/resizedimageskirti/8_compress.png",
+          "age": "38",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/TbnR5n8/99.png"
+        },
+        {
+          "name": "Mohammed Siraj",
+          "role": "Bowler",
+          "url": "https://documents.bcci.tv/resizedimageskirti/3840_compress.png",
+          "age": "30",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/cQJLWqT/13.png"
+        },
+        {
+          "name": "Shubman Gill",
+          "role": "Batter",
+          "url": "https://documents.bcci.tv/resizedimageskirti/3761_compress.png",
+          "age": "25",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/XCNqqVG/77.png"
+        },
+        {
+          "name": "Hardik Pandya",
+          "role": "All-rounder",
+          "url": "https://documents.bcci.tv/resizedimageskirti/2740_compress.png",
+          "age": "31",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/cQjL41N/33.png"
+        },
+        {
+          "name": "Suryakumar Yadav",
+          "role": "Batter",
+          "url": "https://documents.bcci.tv/resizedimageskirti/1212_compress.png",
+          "age": "34",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/D4q966d/64.png"
+        },
+        {
+          "name": "Rishabh Pant",
+          "role": "Wicketkeeper",
+          "url": "https://documents.bcci.tv/resizedimageskirti/2972_compress.png",
+          "age": "27",
+          "style": "LHB",
+          "jersey": "https://i.ibb.co/xCLfccn/17.png"
+        },
+        {
+          "name": "Kuldeep Yadav",
+          "role": "Bowler",
+          "url": "https://documents.bcci.tv/resizedimageskirti/261_compress.png",
+          "age": "29",
+          "style": "LHB",
+          "jersey": "https://i.ibb.co/g64vzLQ/23.png"
+        },
+        {
+          "name": "Axar Patel",
+          "role": "Bowlerr",
+          "url": "https://documents.bcci.tv/resizedimageskirti/1113_compress.png",
+          "age": "30",
+          "style": "LHB",
+          "jersey": "https://i.ibb.co/0q3KPmV/20.png"
+        },
+        {
+          "name": "Yashasvi Jaiswal",
+          "role": "Batter",
+          "url": "https://documents.bcci.tv/resizedimageskirti/11086_compress.png",
+          "age": "22",
+          "style": "LHB",
+          "jersey": "https://i.ibb.co/jfy1kCK/63.png"
         }
       ]
     },
@@ -34,29 +130,379 @@
       "name": "Australia",
       "players": [
         {
-          "name": "Steve Smith",
-          "role": "Batsman",
-          "url": ""
+          "name": "Pat Cummins",
+          "role": "Bowler",
+          "url": "",
+          "age": "30",
+          "style": "",
+          "jersey": ""
         },
         {
           "name": "David Warner",
-          "role": "Batsman",
-          "url": ""
+          "role": "Batter",
+          "url": "",
+          "age": "37",
+          "style": "",
+          "jersey": ""
         },
         {
-          "name": "Pat Cummins",
+          "name": "Steve Smith",
+          "role": "Batter",
+          "url": "",
+          "age": "35",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Mitchell Starc",
           "role": "Bowler",
-          "url": ""
+          "url": "",
+          "age": "34",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Josh Hazlewood",
+          "role": "Bowler",
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Marnus Labuschagne",
+          "role": "Batter",
+          "url": "",
+          "age": "30",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Alex Carey",
+          "role": "Wicketkeeper-Batter",
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Travis Head",
+          "role": "Batter",
+          "url": "",
+          "age": "30",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Adam Zampa",
+          "role": "Bowler",
+          "url": "",
+          "age": "32",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Marcus Stoinis",
+          "role": "All-rounder",
+          "url": "",
+          "age": "34",
+          "style": "",
+          "jersey": ""
         },
         {
           "name": "Glenn Maxwell",
           "role": "All-rounder",
-          "url": ""
+          "url": "",
+          "age": "35",
+          "style": "",
+          "jersey": ""
+        }
+      ]
+    },
+    {
+      "name": "South Africa",
+      "players": [
+        {
+          "name": "Temba Bavuma",
+          "role": "Batter",
+          "url": "",
+          "age": "34",
+          "style": "",
+          "jersey": ""
         },
         {
-          "name": "Alex Carey",
-          "role": "Wicketkeeper-Batsman",
-          "url": ""
+          "name": "Quinton de Kock",
+          "role": "Wicketkeeper-Batter",
+          "url": "",
+          "age": "31",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Kagiso Rabada",
+          "role": "Bowler",
+          "url": "",
+          "age": "29",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Anrich Nortje",
+          "role": "Bowler",
+          "url": "",
+          "age": "30",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "David Miller",
+          "role": "Batter",
+          "url": "",
+          "age": "35",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Aiden Markram",
+          "role": "All-rounder",
+          "url": "",
+          "age": "29",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Lungi Ngidi",
+          "role": "Bowler",
+          "url": "",
+          "age": "28",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Heinrich Klaasen",
+          "role": "Wicketkeeper-Batter",
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Rassie van der Dussen",
+          "role": "Batter",
+          "url": "",
+          "age": "35",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Marco Jansen",
+          "role": "All-rounder",
+          "url": "",
+          "age": "24",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Shamsi",
+          "role": "Bowler",
+          "url": "",
+          "age": "37",
+          "style": "LHB",
+          "jersey": ""
+        },
+        {
+          "name": "Tristian Stubbs",
+          "role": "All-rounder",
+          "url": "",
+          "age": "37",
+          "style": "",
+          "jersey": ""
+        }
+      ]
+    },
+    {
+      "name": "Sri Lanka",
+      "players": [
+        {
+          "name": "Dasun Shanaka",
+          "role": "All-rounder",
+          "url": "",
+          "age": "32",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Kusal Perera",
+          "role": "Wicketkeeper-Batter",
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Dhananjaya de Silva",
+          "role": "All-rounder",
+          "url": "",
+          "age": "32",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Maheesh Theekshana",
+          "role": "Bowler",
+          "url": "",
+          "age": "24",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Wanindu Hasaranga",
+          "role": "All-rounder",
+          "url": "",
+          "age": "26",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Pathum Nissanka",
+          "role": "Batter",
+          "url": "",
+          "age": "26",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Charith Asalanka",
+          "role": "Batter",
+          "url": "",
+          "age": "27",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Lahiru Kumara",
+          "role": "Bowler",
+          "url": "",
+          "age": "27",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Angelo Mathews",
+          "role": "All-rounder",
+          "url": "",
+          "age": "37",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Asalanka",
+          "role": "All-rounder",
+          "url": "",
+          "age": "27",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Chameera",
+          "role": "All-rounder",
+          "url": "",
+          "age": "32",
+          "style": "",
+          "jersey": ""
+        }
+      ]
+    },
+    {
+      "name": "England",
+      "players": [
+        {
+          "name": "Jos Buttler",
+          "role": "Wicketkeeper-Batter",
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Ben Stokes",
+          "role": "All-rounder",
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Joe Root",
+          "role": "Batter",
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Jofra Archer",
+          "role": "Bowler",
+          "url": "",
+          "age": "29",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Jonny Bairstow",
+          "role": "Wicketkeeper-Batter",
+          "url": "",
+          "age": "34",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Chris Woakes",
+          "role": "All-rounder",
+          "url": "",
+          "age": "35",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Dawid Malan",
+          "role": "Batter",
+          "url": "",
+          "age": "37",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Mark Wood",
+          "role": "Bowler",
+          "url": "",
+          "age": "34",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Liam Livingstone",
+          "role": "All-rounder",
+          "url": "",
+          "age": "31",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Moeen Ali",
+          "role": "All-rounder",
+          "url": "",
+          "age": "37",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Sam Curran",
+          "role": "All-rounder",
+          "url": "",
+          "age": "26",
+          "style": "",
+          "jersey": ""
         }
       ]
     },
@@ -65,88 +511,75 @@
       "players": [
         {
           "name": "Kane Williamson",
-          "role": "Batsman",
-          "url": ""
+          "role": "Batter",
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
         },
         {
-          "name": "Devon Conway",
-          "role": "Batsman",
-          "url": ""
+          "name": "Tom Latham",
+          "role": "Wicketkeeper-Batter",
+          "url": "",
+          "age": "32",
+          "style": "",
+          "jersey": ""
         },
         {
           "name": "Trent Boult",
           "role": "Bowler",
-          "url": ""
+          "url": "",
+          "age": "35",
+          "style": "",
+          "jersey": ""
         },
         {
-          "name": "James Neesham",
-          "role": "All-rounder",
-          "url": ""
-        },
-        {
-          "name": "Tom Latham",
-          "role": "Wicketkeeper-Batsman",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "name": "South Africa",
-      "players": [
-        {
-          "name": "Quinton de Kock",
-          "role": "Wicketkeeper-Batsman",
-          "url": ""
-        },
-        {
-          "name": "Aiden Markram",
-          "role": "Batsman",
-          "url": ""
-        },
-        {
-          "name": "Kagiso Rabada",
+          "name": "Tim Southee",
           "role": "Bowler",
-          "url": ""
+          "url": "",
+          "age": "35",
+          "style": "",
+          "jersey": ""
         },
         {
-          "name": "David Miller",
-          "role": "Batsman",
-          "url": ""
+          "name": "Devon Conway",
+          "role": "Batter",
+          "url": "",
+          "age": "32",
+          "style": "",
+          "jersey": ""
         },
         {
-          "name": "Marco Jansen",
+          "name": "Daryl Mitchell",
           "role": "All-rounder",
-          "url": ""
-        }
-      ]
-    },
-    {
-      "name": "England",
-      "players": [
-        {
-          "name": "Joe Root",
-          "role": "Batsman",
-          "url": ""
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
         },
         {
-          "name": "Jos Buttler",
-          "role": "Wicketkeeper-Batsman",
-          "url": ""
-        },
-        {
-          "name": "Jofra Archer",
+          "name": "Matt Henry",
           "role": "Bowler",
-          "url": ""
+          "url": "",
+          "age": "33",
+          "style": "",
+          "jersey": ""
         },
         {
-          "name": "Ben Stokes",
+          "name": "Glenn Phillips",
           "role": "All-rounder",
-          "url": ""
+          "url": "",
+          "age": "27",
+          "style": "",
+          "jersey": ""
         },
         {
-          "name": "Jonny Bairstow",
-          "role": "Batsman",
-          "url": ""
+          "name": "Jimmy Neesham",
+          "role": "All-rounder",
+          "url": "",
+          "age": "34",
+          "style": "",
+          "jersey": ""
         }
       ]
     },
@@ -154,29 +587,11 @@
       "name": "West Indies",
       "players": [
         {
-          "name": "Chris Gayle",
-          "role": "Batsman",
-          "url": ""
-        },
-        {
-          "name": "Kieron Pollard",
-          "role": "All-rounder",
-          "url": ""
-        },
-        {
-          "name": "Jason Holder",
-          "role": "All-rounder",
-          "url": ""
-        },
-        {
-          "name": "Nicholas Pooran",
-          "role": "Wicketkeeper-Batsman",
-          "url": ""
-        },
-        {
-          "name": "Sheldon Cottrell",
-          "role": "Bowler",
-          "url": ""
+          "name": "Shai Hope",
+          "role": "Wicketkeeper-Batter",
+          "url": "",
+          "age": "30",
+          "style": ""
         }
       ]
     }
