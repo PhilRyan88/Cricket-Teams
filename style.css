@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  background-color: lightblue;
 }
 .container {
   position: relative;
@@ -17,15 +17,15 @@ body {
 .cont {
   position: relative;
   display: flex;
-  border: 1px solid;
+  /* border: 1px solid; */
   height: 250px;
   width: 400px;
   border-radius: 18px;
   flex-direction: row;
   background-color: white;
   &:hover {
-    background-color: rgba(13, 109, 253, 0.219);
-    color: orange;
+    background-color: rgba(7, 55, 128, 0.904);
+    color: rgb(253, 169, 12);
   }
 }
 
@@ -43,7 +43,7 @@ body {
   }
 }
 p[class="name"] {
-  border: 1px solid;
+  /* border: 1px solid; */
   width: fit-content;
   height: 30px;
   position: absolute;

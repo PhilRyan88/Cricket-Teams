@@ -9,7 +9,7 @@
   <body>
     <input type="text" class="srch" /><button class="btn">Search</button>
     <div class="container">
-      <!-- <div class="cont">
+      <div class="cont">
         <img
           src="https://documents.bcci.tv/resizedimageskirti/107_compress.png"
           alt=""
@@ -29,7 +29,7 @@
           alt=""
           class="players"
         />
-      </div> -->
+      </div>
     </div>
     <script>
       var search = document.querySelector(".srch");
@@ -66,6 +66,7 @@
                 var name = document.createElement("p");
                 name.className = "name";
                 name.innerHTML = `${player.name} `;
+
                 var img = document.createElement("img");
                 img.src = player.url;
                 img.id = "players";
