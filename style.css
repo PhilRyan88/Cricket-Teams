@@ -6,6 +6,33 @@
 body {
   background-color: lightblue;
 }
+.srch {
+  width: 400px;
+  height: 30px;
+  padding: 15px;
+  outline: none;
+  border-style: none;
+  position: relative;
+  top: 20px;
+  left: 520px;
+}
+.btn {
+  height: 30px;
+  width: 70px;
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+  background-color: rgb(0, 111, 139);
+  color: white;
+  position: relative;
+  left: 530px;
+  top: 20px;
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: greenyellow;
+    color: black;
+  }
+}
 .container {
   position: relative;
   margin-top: 100px;
