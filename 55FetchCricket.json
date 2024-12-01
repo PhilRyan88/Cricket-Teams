@@ -3,7 +3,14 @@
     {
       "name": "India",
       "players": [
-        {},
+        {
+          "name": "Rohit Sharma",
+          "role": "Batter",
+          "url": "https://static-files.cricket-australia.pulselive.com/headshots/440/10915-camedia.png",
+          "age": "37",
+          "style": "RHB",
+          "jersey": "https://i.ibb.co/9yjZVgX/45.png"
+        },
         {
           "name": "Virat Kohli",
           "role": "Batter",
