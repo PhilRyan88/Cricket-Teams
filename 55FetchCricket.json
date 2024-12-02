@@ -582,6 +582,99 @@
           "jersey": "https://i.ibb.co/vjd657F/il-1080x-N-2803808899-6ojp-removebg-preview.png"
         }
       ]
+    },
+    {
+      "name": "West Indies",
+      "players": [
+        {
+          "name": "Shai Hope",
+          "role": "Wicketkeeper Batter",
+          "url": "",
+          "age": "30",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Nicholas Pooran",
+          "role": "Batter",
+          "url": "",
+          "age": "28",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Jason Holder",
+          "role": "All-Rounder",
+          "url": "",
+          "age": "32",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Shimron Hetmyer",
+          "role": "Batter",
+          "url": "",
+          "age": "27",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Rovman Powell",
+          "role": "All-Rounder",
+          "url": "",
+          "age": "31",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Kyle Mayers",
+          "role": "All-Rounder",
+          "url": "",
+          "age": "31",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Alzarri Joseph",
+          "role": "Bowler",
+          "url": "",
+          "age": "27",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Akeal Hosein",
+          "role": "Bowler",
+          "url": "",
+          "age": "31",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Odean Smith",
+          "role": "Bowler",
+          "url": "",
+          "age": "30",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Roston Chase",
+          "role": "All-Rounder",
+          "url": "",
+          "age": "32",
+          "style": "",
+          "jersey": ""
+        },
+        {
+          "name": "Keemo Paul",
+          "role": "Bowler",
+          "url": "",
+          "age": "26",
+          "style": "",
+          "jersey": ""
+        }
+      ]
     }
   ]
 }
